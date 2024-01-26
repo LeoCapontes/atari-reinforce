@@ -1,7 +1,6 @@
 # This code initially came from https://github.com/gabrielgarza/openai-gym-policy-gradient
 # Then modified to work with TensorlowV2.x by M. Fairbank, with many further enhancements.
 # Majority of comments by M. Fairbank.
-# cleaned up non-graphical version intended to work on the HPC
 import gymnasium as gym
 from gymnasium.wrappers import GrayScaleObservation
 from gymnasium.wrappers import FlattenObservation
